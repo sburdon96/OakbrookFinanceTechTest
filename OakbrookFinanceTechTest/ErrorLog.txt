@@ -1,0 +1,12 @@
+DecisionApiRepository - PostDetails - Response or Parse - System error.
+DecisionApiRepository - PostDetails - Unexpected character encountered while parsing value: ﻿. Path '', line 0, position 0.
+DetailsService - StoreResult - Object reference not set to an instance of an object.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.
+DecisionApiRepository - PostDetails - Error parsing Infinity value. Path '', line 1, position 2.

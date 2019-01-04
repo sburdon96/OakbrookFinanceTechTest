@@ -1,0 +1,33 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+@model OakbrookFinanceTechTest.Model.DetailsModel
+
+<div class="container">
+    <div class="jumbotron" id="display" style="background-color: white; height: 80vh">
+        <h1>Dummy Decision</h1>
+        <p> Simply enter your details and see if you are accepted or not. </p>
+        <div class="container-fluid" id="view">
+            @using (Html.BeginForm("ProcessInput", "Home", FormMethod.Post, new { @id = "form" }))
+        {
+            <div class="form-group">
+                <label for="firstname">First Name:</label>
+                @Html.ValidationMessageFor(model => model.FirstName)
+                @Html.TextBoxFor(model => model.FirstName, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label for="lastname">Last Name:</label>
+                @Html.ValidationMessageFor(model => model.LastName)
+                @Html.TextBoxFor(model => model.LastName, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label for="dateofbirth">Date of Birth:</label>
+                @Html.ValidationMessageFor(model => model.DateOfBirth)
+                @Html.TextBoxFor(model => model.DateOfBirth, new { @class = "form-control", @type = "date" })
+            </div>
+
+            <button type="submit" class="btn btn-default">Submit</button>
+    }
+        </div>
+    </div>
+</div>
